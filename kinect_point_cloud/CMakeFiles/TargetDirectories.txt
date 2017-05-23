@@ -1,0 +1,4 @@
+/home/indu/pointcloud/RGBD-Vision/kinect_point_cloud/CMakeFiles/point_cloud_capture.dir
+/home/indu/pointcloud/RGBD-Vision/kinect_point_cloud/CMakeFiles/clustering.dir
+/home/indu/pointcloud/RGBD-Vision/kinect_point_cloud/CMakeFiles/savepng.dir
+/home/indu/pointcloud/RGBD-Vision/kinect_point_cloud/CMakeFiles/openniViewer.dir

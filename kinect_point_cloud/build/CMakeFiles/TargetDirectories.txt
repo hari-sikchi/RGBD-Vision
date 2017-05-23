@@ -1,0 +1,2 @@
+/home/indu/testing/build/CMakeFiles/clustering.dir
+/home/indu/testing/build/CMakeFiles/openniViewer.dir
