@@ -8,8 +8,8 @@ is mentioned on its github page that it does.
 # 1. Setup:
 
 This package only a ROS catkin workspace. Follow the instructions under the installation section on the github page 
-[https://github.com/yangyin2016/rgbdslam_v2-indigo](https://github.com/yangyin2016/rgbdslam_v2-indigo). (In this repository, this 
-package is not added because of its large size)
+[https://github.com/yangyin2016/rgbdslam_v2-indigo](https://github.com/yangyin2016/rgbdslam_v2-indigo). (In this repository, 
+this package is not added because of its large size) (It should be present inside catkin_ws/src/)
 **Note** In the first step download and the extract the archive to the src folder of the catkin workspace rather than cloning the repository.
 
 This package requires the use of a RGB-D camera i.e Kinect 1414. To set it up follow the instructions on 
