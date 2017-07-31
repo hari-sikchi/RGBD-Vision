@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel/setup.sh
