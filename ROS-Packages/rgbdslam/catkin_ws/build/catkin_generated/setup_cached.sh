@@ -8,6 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
 export PWD="/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/src:$ROS_PACKAGE_PATH"

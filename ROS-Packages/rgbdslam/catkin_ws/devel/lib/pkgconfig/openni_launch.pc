@@ -1,0 +1,8 @@
+prefix=/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel
+
+Name: openni_launch
+Description: Description of openni_launch
+Version: 1.9.8
+Cflags: 
+Libs: -L/home/arijit/AK_Progs/RGBD-Vision/ROS-Packages/rgbdslam/catkin_ws/devel/lib 
+Requires: 
