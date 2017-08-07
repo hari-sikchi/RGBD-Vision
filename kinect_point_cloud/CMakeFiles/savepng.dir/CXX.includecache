@@ -1216,10 +1216,6 @@ pcl/common/eigen.h
 pcl/conversions.h
 -
 
-/usr/include/pcl-1.7/pcl/common/copy_point.h
-pcl/common/impl/copy_point.hpp
--
-
 /usr/include/pcl-1.7/pcl/common/distances.h
 pcl/common/common.h
 -
@@ -1260,20 +1256,6 @@ algorithm
 pcl/common/impl/file_io.hpp
 -
 
-/usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp
-map
--
-boost/mpl/filter_view.hpp
--
-boost/fusion/include/mpl.hpp
--
-boost/fusion/include/for_each.hpp
--
-boost/fusion/include/as_vector.hpp
--
-pcl/point_types.h
--
-
 /usr/include/pcl-1.7/pcl/common/impl/angles.hpp
 cmath
 -
@@ -1292,16 +1274,6 @@ boost/mpl/size.hpp
 pcl/point_types.h
 -
 pcl/common/common.h
--
-
-/usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
-pcl/point_types.h
--
-pcl/point_traits.h
--
-pcl/for_each_type.h
--
-pcl/common/concatenate.h
 -
 
 /usr/include/pcl-1.7/pcl/common/impl/eigen.hpp
