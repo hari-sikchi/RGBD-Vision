@@ -1,9 +1,9 @@
 MULTISENSE POINT CLOUD PROCESSING
 
-the underlying principle is same as kinect point cloud for more details go to kinedt poit cloud folder
+The underlying principle is same as kinect point cloud. (for more details go to kinect poit cloud folder)
 
-multisense publish the point cloud data in topic "/multisense/organized_image_points2_color" in message type sensor_msgs which is need to be  appropriately  converted to pclpointcloud format before using pcl library for processing using the same as kinect point cloud algorithm.
+multisense publishes the point cloud data in topic "/multisense/organized_image_points2_color" as message type sensor_msgs. This needs to be  appropriately  converted to pclpointcloud format before  processing it  using the same  kinect point cloud algorithm and pcl library.
 
-source code example.cpp  subscribes to topic and does the post processing and publish the cordinates to std out
+source code (example.cpp)  subscribes to topic and does the post processing before publishing the cordinates of detected region of interest to std out
 
-for simply running the code run example with multisense running. 
+for simply running the code run example with multisense running or bag playing. 
