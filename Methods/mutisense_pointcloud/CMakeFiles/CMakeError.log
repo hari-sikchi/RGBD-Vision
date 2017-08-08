@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec205142101/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec205142101.dir/build.make CMakeFiles/cmTryCompileExec205142101.dir/build
+make[1]: Entering directory `/home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec205142101.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec205142101.dir/CheckSymbolExists.c.o   -c /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec205142101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec205142101.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec205142101.dir/CheckSymbolExists.c.o  -o cmTryCompileExec205142101 -rdynamic 
+CMakeFiles/cmTryCompileExec205142101.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec205142101] Error 1
+make[1]: Leaving directory `/home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec205142101/fast] Error 2
+
+File /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3083669319/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3083669319.dir/build.make CMakeFiles/cmTryCompileExec3083669319.dir/build
+make[1]: Entering directory `/home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3083669319.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3083669319.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3083669319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3083669319.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3083669319.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3083669319 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/indu/try_multisense/src/mutisense_pointcloud/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3083669319] Error 1
+make: *** [cmTryCompileExec3083669319/fast] Error 2
+
+
